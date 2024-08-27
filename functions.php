@@ -4,8 +4,6 @@ function carvillage_setup()
 {
     add_theme_support('post-thumbnails');
     add_image_size('custom-size', 350, 300, true);
-
-    add_theme_support('title-tag');
 }
 add_action('after_setup_theme', 'carvillage_setup');
 function wp_insert_main_style()
